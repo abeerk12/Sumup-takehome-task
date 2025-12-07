@@ -31,7 +31,7 @@ This repo contains my solution for an Operations Analytics Lead case study on Me
 
 Source table: sumup-takehometest.1234.interactions (1 row = 1 merchant → Support interaction via email/call/chat).
 
-**2. Key Assumptions**
+##**2. Key Assumptions**
 
 Time fields (INTERACTION_RESPONSE_TIME, INTERACTION_HANDLING_TIME) are in seconds.
 
