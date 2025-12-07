@@ -31,7 +31,7 @@ This repo contains my solution for an Operations Analytics Lead case study on Me
 
 Source table: sumup-takehometest.1234.interactions (1 row = 1 merchant → Support interaction via email/call/chat).
 
-##**2. Key Assumptions**
+**2. Key Assumptions**
 
 Time fields (INTERACTION_RESPONSE_TIME, INTERACTION_HANDLING_TIME) are in seconds.
 
@@ -56,6 +56,8 @@ Chat time fields incomplete earlier in the year: INTERACTION_RESPONSE_TIME and I
 MCC_GROUP completeness improves in Nov–Dec: earlier months have ~18–20% null; this drops sharply in Nov–Dec, especially for chat.
 
 Resolution flag drift: share of interactions flagged as resolving drops over time (for chat from ~100% to ~53%), so I rely more on the recontact-based analytical definition than on the raw flag alone.
+
+Email interaction handling times too high - need outlier treatment.
 
 Because of this, Dec 2024 is used as the cleanest month for detailed channel and cost views.
 
