@@ -18,9 +18,8 @@ This repo contains my solution for an Operations Analytics Lead case study on Me
 │   ├── SU_Q4_merchantrepeatcontacts.sql
 │   ├── SU_Q5_costallocation.sql
 ├── slides/
-│   └── operations_analytics_case_study_deck_v2.pptx
-└── docs/
-    └── merchant_care_written_answers_v2.docx
+    └── SU_takehometask.pptx
+
 
 Source table: sumup-takehometest.1234.interactions (1 row = 1 merchant → Support interaction via email/call/chat).
 
